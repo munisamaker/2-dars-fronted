@@ -2,10 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+      <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore alias vel atque, sint debitis ab commodi veritatis, nam architecto quam odio cumque suscipit placeat. Perspiciatis ipsum provident nam reiciendis temporibus, ratione et tenetur fugiat eveniet, eligendi doloribus cum ex a! Quae ullam pariatur quis porro, ea, libero qui corporis consectetur veritatis cum soluta sit quidem nisi asperiores minima, recusandae assumenda vitae? Alias odit a reprehenderit illum consequuntur dignissimos quam tempora excepturi, autem voluptatibus voluptas, nihil mollitia facere nesciunt, quidem magnam perferendis qui sapiente blanditiis fugiat. Esse a officia ipsam sed quam eligendi est, velit ipsa. Sit laborum voluptatibus aperiam?</p>
+    <div class="form-container container">
+    <h2>Запрос ставки и условий погрузочно-<br>разгрузочных работ</h2>
+    <form class="form" action="" method="get">
+        <div class="form-flex-wrapper">
+        <label class="form-label">
+          Наименование груза *
+            <input type="text" placeholder="" required name="input">
+        </label>
+          <label class="form-label">
+          ед. измерения *
+            <input type="number" placeholder="" required name="">
+        </label>
+        <label class="form-label">
+            Пункт назначения перевозки
+            <input type="text" placeholder="" required name="input">
+        </label>
+         <label class="form-label">
+            Груз поступает в порт 
+            <input type="number" placeholder="" required name="">
+        </label>
+        <label class="form-label">
+        Размер судовой партии
+            <input type="text" placeholder="" required name="input">
+        </label>
+           <label class="form-label">
+        Дополнительная информация о грузе:
+            <input type="text" placeholder="" required name="input">
+        </label>
+        </div>
+        <div class="form-group">
+           <label class="form-label">
+        Размер партии *
+            <input type="text" placeholder="" required name="input">
+        </label>
+          <label class="form-label">
+          Направление перевозки *
+            <input type="number" placeholder="" required name="">
+        </label>
+          <label class="form-label">
+           Период поступления груза к перевалке
+            <input type="number" placeholder="" required name="">
+        </label>
+          <label class="form-label">
+        Груз отправляется из порта
+            <input type="number" placeholder="" required name="">
+        </label>
+          <label class="form-label">
+       Опасность груза (класс)
+            <input type="text" placeholder="" required name="input">
+        </label>
+            <label class="form-label">
+        Прикрепить файл
+        </label>
+        </div>
+         <div class="button-container container">
+            <button class="button-file"> Выберите файл </button>
+            <button class="button-status"> Файл не выбран </button>
+        </div>
+    </form>
+    </div>
 </body>
 </html>

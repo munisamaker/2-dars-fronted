@@ -1,0 +1,58 @@
+/* pt-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* pt-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/pt-sans-v18-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body{
+  background-color: aliceblue;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+h2{
+font-family:" PT Sans";
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+text-align: center;
+}
+.form{
+    background-color:#fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+.form-label{
+ display: flex;
+ flex-direction: column;
+margin-bottom: 20px;
+color: black;
+font-family:" PT Sans";
+font-weight: 700;
+font-size: 13px;
+line-height: 140%;
+text-transform: uppercase;
+}
+.form-flex-wrapper{
+ display:inline-block;
+ justify-content: space-between;
+  margin-right: 25px;
+}
+.form-group{
+  display:inline-block;
+}
+
+
+
